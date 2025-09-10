@@ -1,20 +1,20 @@
-import React, { useState, useEffect } from "react";
 import {
   BookOpen,
+  Feather,
+  Lightbulb,
   RefreshCw,
   Star,
   Volume2,
-  Lightbulb,
-  Heart,
-  Feather,
 } from "lucide-react";
+import React, { useEffect, useState } from "react";
+import allWords from "../assets/jsons/words.json";
+import allPoems from "../assets/jsons/poems.json";
 
 interface Word {
   word: string;
   definition: string;
   pronunciation: string;
   example: string;
-  difficulty: "beginner" | "intermediate" | "advanced";
   partOfSpeech: string;
 }
 
@@ -32,108 +32,22 @@ const WordLearningApp: React.FC = () => {
   const [favoriteWords, setFavoriteWords] = useState<number[]>([]);
   const [activeTab, setActiveTab] = useState<"words" | "poems">("words");
   const [learnedWords, setLearnedWords] = useState<number[]>([]);
-
-  const words: Word[] = [
-    {
-      word: "Serendipity",
-      definition:
-        "The occurrence of pleasant discoveries by accident or when looking for something else",
-      pronunciation: "/ˌserənˈdipədē/",
-      example: "Finding that wonderful book was pure serendipity.",
-      difficulty: "intermediate",
-      partOfSpeech: "noun",
-    },
-    {
-      word: "Ephemeral",
-      definition: "Lasting for a very short time; transitory",
-      pronunciation: "/əˈfem(ə)rəl/",
-      example: "The beauty of cherry blossoms is ephemeral but unforgettable.",
-      difficulty: "advanced",
-      partOfSpeech: "adjective",
-    },
-    {
-      word: "Luminous",
-      definition: "Giving off light; bright or shining, especially in the dark",
-      pronunciation: "/ˈlo͞omənəs/",
-      example: "The luminous moon cast silver shadows across the lake.",
-      difficulty: "intermediate",
-      partOfSpeech: "adjective",
-    },
-    {
-      word: "Resilient",
-      definition: "Able to recover quickly from difficult conditions; flexible",
-      pronunciation: "/rəˈzilyənt/",
-      example: "Children are remarkably resilient in the face of change.",
-      difficulty: "intermediate",
-      partOfSpeech: "adjective",
-    },
-    {
-      word: "Ubiquitous",
-      definition: "Present, appearing, or found everywhere",
-      pronunciation: "/yo͞oˈbikwədəs/",
-      example: "Smartphones have become ubiquitous in modern society.",
-      difficulty: "advanced",
-      partOfSpeech: "adjective",
-    },
-    {
-      word: "Mellifluous",
-      definition: "Sweet or musical; pleasant to hear",
-      pronunciation: "/məˈliflo͞oəs/",
-      example: "Her mellifluous voice captivated the entire audience.",
-      difficulty: "advanced",
-      partOfSpeech: "adjective",
-    },
-  ];
-
-  const poems: Poem[] = [
-    {
-      title: "Morning Light",
-      author: "Anonymous",
-      lines: [
-        "Golden rays dance through the trees,",
-        "Whispers carried on the breeze,",
-        "Nature wakes with gentle ease,",
-        "Morning brings such sweet release.",
-      ],
-      theme: "nature",
-    },
-    {
-      title: "Dreams",
-      author: "Anonymous",
-      lines: [
-        "In the realm of sleep we fly,",
-        "Beyond the earth, beyond the sky,",
-        "Where imagination runs free,",
-        "And we become all we can be.",
-      ],
-      theme: "inspiration",
-    },
-    {
-      title: "Friendship",
-      author: "Anonymous",
-      lines: [
-        "A friend is like a shining star,",
-        "That lights our way from near and far,",
-        "Through stormy nights and sunny days,",
-        "Their love will guide us through life's maze.",
-      ],
-      theme: "friendship",
-    },
-    {
-      title: "Ocean's Song",
-      author: "Anonymous",
-      lines: [
-        "Waves that crash upon the shore,",
-        "Tell tales of depths and so much more,",
-        "The ocean sings its ancient song,",
-        "Of journeys vast and currents strong.",
-      ],
-      theme: "nature",
-    },
-  ];
+  const [poems, setPoems] = useState<Poem[]>([]);
+  const [words, setWords] = useState<Word[]>([]);
 
   const currentWord = words[currentWordIndex];
   const currentPoem = poems[currentPoemIndex];
+
+  //   Load the words and poems from json
+  useEffect(() => {
+    const InitialLoad = () => {
+      console.log(allPoems);
+      setPoems(allPoems)
+      setWords(allWords)
+      console.log(allWords);
+    };
+    InitialLoad();
+  }, []);
 
   const nextWord = () => {
     setCurrentWordIndex((prev) => (prev + 1) % words.length);
@@ -153,25 +67,10 @@ const WordLearningApp: React.FC = () => {
     setCurrentPoemIndex((prev) => (prev - 1 + poems.length) % poems.length);
   };
 
-
-
   const markAsLearned = (index: number) => {
     setLearnedWords((prev) =>
       prev.includes(index) ? prev.filter((i) => i !== index) : [...prev, index]
     );
-  };
-
-  const getDifficultyColor = (difficulty: string) => {
-    switch (difficulty) {
-      case "beginner":
-        return "bg-green-100 text-green-800";
-      case "intermediate":
-        return "bg-yellow-100 text-yellow-800";
-      case "advanced":
-        return "bg-red-100 text-red-800";
-      default:
-        return "bg-gray-100 text-gray-800";
-    }
   };
 
   const getThemeColor = (theme: string) => {
@@ -235,19 +134,11 @@ const WordLearningApp: React.FC = () => {
             <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
               <div className="flex justify-between items-start mb-6">
                 <div className="flex items-center gap-3">
-                  <span
-                    className={`px-3 py-1 rounded-full text-sm font-medium ${getDifficultyColor(
-                      currentWord.difficulty
-                    )}`}
-                  >
-                    {currentWord.difficulty}
-                  </span>
                   <span className="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm font-medium">
-                    {currentWord.partOfSpeech}
+                    {currentWord?.partOfSpeech}
                   </span>
                 </div>
                 <div className="flex gap-2">
-         
                   <button
                     onClick={() => markAsLearned(currentWordIndex)}
                     className={`p-2 rounded-full transition-colors ${
@@ -270,10 +161,10 @@ const WordLearningApp: React.FC = () => {
 
               <div className="text-center mb-6">
                 <h2 className="text-5xl font-bold text-gray-800 mb-2">
-                  {currentWord.word}
+                  {currentWord?.word}
                 </h2>
                 <p className="text-gray-500 text-lg mb-2">
-                  {currentWord.pronunciation}
+                  {currentWord?.pronunciation}
                 </p>
                 <button className="text-indigo-600 hover:text-indigo-700 transition-colors">
                   <Volume2 className="w-5 h-5" />

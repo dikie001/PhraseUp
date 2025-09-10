@@ -1,0 +1,710 @@
+
+[
+  {
+    "word": "serendipity",
+    "definition": "The occurrence of pleasant discoveries by accident.",
+    "pronunciation": "/ˌsɛrənˈdɪpɪti/",
+    "example": "Finding that old letter was pure serendipity.",
+    "partOfSpeech": "noun"
+  },
+  {
+    "word": "ephemeral",
+    "definition": "Lasting for a very short time.",
+    "pronunciation": "/ɪˈfɛmərəl/",
+    "example": "The fog was ephemeral, gone by noon.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "luminous",
+    "definition": "Emitting or reflecting light; bright.",
+    "pronunciation": "/ˈluːmɪnəs/",
+    "example": "The luminous dial guided him through the night.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "resilient",
+    "definition": "Able to recover quickly from difficulties.",
+    "pronunciation": "/rɪˈzɪliənt/",
+    "example": "Children are often more resilient than adults expect.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "ubiquitous",
+    "definition": "Present or appearing everywhere.",
+    "pronunciation": "/juːˈbɪkwɪtəs/",
+    "example": "Smartphones are ubiquitous these days.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "mellifluous",
+    "definition": "Sweet or musical; pleasant to hear.",
+    "pronunciation": "/məˈlɪflʊəs/",
+    "example": "She had a mellifluous voice that calmed the room.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "ponder",
+    "definition": "To think about something carefully.",
+    "pronunciation": "/ˈpɒndər/",
+    "example": "He sat to ponder the next move.",
+    "partOfSpeech": "verb"
+  },
+  {
+    "word": "elated",
+    "definition": "Very happy and excited.",
+    "pronunciation": "/ɪˈleɪtɪd/",
+    "example": "She was elated after receiving the news.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "aloof",
+    "definition": "Not friendly or forthcoming; distant.",
+    "pronunciation": "/əˈluːf/",
+    "example": "He remained aloof during the whole meeting.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "concur",
+    "definition": "To agree with someone or something.",
+    "pronunciation": "/kənˈkɜːr/",
+    "example": "I concur with your assessment.",
+    "partOfSpeech": "verb"
+  },
+  {
+    "word": "brevity",
+    "definition": "Concise and exact use of words in writing or speech.",
+    "pronunciation": "/ˈbrɛvɪti/",
+    "example": "The report's brevity made it easy to read.",
+    "partOfSpeech": "noun"
+  },
+  {
+    "word": "facetious",
+    "definition": "Treating serious issues with inappropriate humor.",
+    "pronunciation": "/fəˈsiːʃəs/",
+    "example": "He made a facetious remark during the debate.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "candid",
+    "definition": "Truthful and straightforward; frank.",
+    "pronunciation": "/ˈkændɪd/",
+    "example": "She gave a candid interview about her struggles.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "amplify",
+    "definition": "To make larger, louder, or more powerful.",
+    "pronunciation": "/ˈæmplɪfaɪ/",
+    "example": "The speaker will amplify the guitar sound.",
+    "partOfSpeech": "verb"
+  },
+  {
+    "word": "vigilant",
+    "definition": "Keeping careful watch for possible danger.",
+    "pronunciation": "/ˈvɪdʒɪlənt/",
+    "example": "Be vigilant when walking alone at night.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "succinct",
+    "definition": "Briefly and clearly expressed.",
+    "pronunciation": "/səkˈsɪŋkt/",
+    "example": "Her summary was succinct and useful.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "bolster",
+    "definition": "To support or strengthen.",
+    "pronunciation": "/ˈboʊlstər/",
+    "example": "These facts will bolster our case.",
+    "partOfSpeech": "verb"
+  },
+  {
+    "word": "meticulous",
+    "definition": "Showing great attention to detail.",
+    "pronunciation": "/məˈtɪkjʊləs/",
+    "example": "She is meticulous in her note-taking.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "arduous",
+    "definition": "Involving or requiring strenuous effort.",
+    "pronunciation": "/ˈɑːrdjuəs/",
+    "example": "Climbing the mountain was an arduous task.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "serene",
+    "definition": "Calm, peaceful, and untroubled.",
+    "pronunciation": "/səˈriːn/",
+    "example": "The lake was serene at dawn.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "fortify",
+    "definition": "To strengthen a place or person against attack or hardship.",
+    "pronunciation": "/ˈfɔːrtɪfaɪ/",
+    "example": "They will fortify the town before winter.",
+    "partOfSpeech": "verb"
+  },
+  {
+    "word": "impartial",
+    "definition": "Treating all rivals or disputants equally; fair.",
+    "pronunciation": "/ɪmˈpɑːrʃəl/",
+    "example": "An impartial judge is essential for justice.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "quaint",
+    "definition": "Attractively unusual or old-fashioned.",
+    "pronunciation": "/kweɪnt/",
+    "example": "They stayed in a quaint cottage by the sea.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "elude",
+    "definition": "To evade or escape from something, typically in a skillful way.",
+    "pronunciation": "/ɪˈluːd/",
+    "example": "The solution continues to elude researchers.",
+    "partOfSpeech": "verb"
+  },
+  {
+    "word": "tenacious",
+    "definition": "Tending to keep a firm hold of something; persistent.",
+    "pronunciation": "/tɪˈneɪʃəs/",
+    "example": "Her tenacious spirit kept the team going.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "whimsical",
+    "definition": "Playfully quaint or fanciful, especially in an appealing way.",
+    "pronunciation": "/ˈwɪmzɪkəl/",
+    "example": "The story had a whimsical tone.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "lament",
+    "definition": "To express sorrow, mourning, or regret.",
+    "pronunciation": "/ləˈmɛnt/",
+    "example": "They lament the loss of the old theater.",
+    "partOfSpeech": "verb"
+  },
+  {
+    "word": "harbinger",
+    "definition": "A person or thing that announces or signals the approach of another.",
+    "pronunciation": "/ˈhɑːrbɪndʒər/",
+    "example": "The first robins are harbingers of spring.",
+    "partOfSpeech": "noun"
+  },
+  {
+    "word": "pragmatic",
+    "definition": "Dealing with things sensibly and realistically.",
+    "pronunciation": "/præɡˈmætɪk/",
+    "example": "We need a pragmatic approach to the problem.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "revere",
+    "definition": "To feel deep respect or admiration for something.",
+    "pronunciation": "/rɪˈvɪər/",
+    "example": "They revere the tradition of the festival.",
+    "partOfSpeech": "verb"
+  },
+  {
+    "word": "plausible",
+    "definition": "Seeming reasonable or probable.",
+    "pronunciation": "/ˈplɔːzəbəl/",
+    "example": "His explanation sounded plausible enough.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "cumbersome",
+    "definition": "Large or heavy and therefore difficult to carry or use.",
+    "pronunciation": "/ˈkʌmbərsəm/",
+    "example": "The old sofa was too cumbersome to move.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "baffle",
+    "definition": "To totally bewilder or perplex.",
+    "pronunciation": "/ˈbæfəl/",
+    "example": "The new puzzle will baffle most beginners.",
+    "partOfSpeech": "verb"
+  },
+  {
+    "word": "zealous",
+    "definition": "Having or showing zeal; passionate.",
+    "pronunciation": "/ˈzɛləs/",
+    "example": "She is a zealous advocate for change.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "placid",
+    "definition": "Calm and peaceful, with little movement or activity.",
+    "pronunciation": "/ˈplæsɪd/",
+    "example": "A placid bay reflected the mountains.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "evoke",
+    "definition": "To bring or recall a feeling, memory, or image to the mind.",
+    "pronunciation": "/ɪˈvoʊk/",
+    "example": "The smell of coffee can evoke childhood mornings.",
+    "partOfSpeech": "verb"
+  },
+  {
+    "word": "nuance",
+    "definition": "A subtle difference in or shade of meaning, expression, or sound.",
+    "pronunciation": "/ˈnuːɑːns/",
+    "example": "She understood the nuance in his tone.",
+    "partOfSpeech": "noun"
+  },
+  {
+    "word": "zephyr",
+    "definition": "A soft gentle breeze.",
+    "pronunciation": "/ˈzɛfər/",
+    "example": "A warm zephyr drifted through the meadow.",
+    "partOfSpeech": "noun"
+  },
+  {
+    "word": "chide",
+    "definition": "To scold or rebuke.",
+    "pronunciation": "/tʃaɪd/",
+    "example": "He chided the team for sloppy work.",
+    "partOfSpeech": "verb"
+  },
+  {
+    "word": "eloquent",
+    "definition": "Fluent or persuasive in speaking or writing.",
+    "pronunciation": "/ˈɛləkwənt/",
+    "example": "Her speech was eloquent and compelling.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "cascade",
+    "definition": "A small waterfall, or a process where something, typically information, is passed on.",
+    "pronunciation": "/kæsˈkeɪd/",
+    "example": "A cascade of events followed the announcement.",
+    "partOfSpeech": "noun"
+  },
+  {
+    "word": "diligent",
+    "definition": "Having or showing care and conscientiousness in one's work.",
+    "pronunciation": "/ˈdɪlɪdʒənt/",
+    "example": "She is diligent about meeting deadlines.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "forte",
+    "definition": "A thing at which someone excels.",
+    "pronunciation": "/fɔːrˈteɪ/",
+    "example": "Coding is his forte.",
+    "partOfSpeech": "noun"
+  },
+  {
+    "word": "galvanize",
+    "definition": "To shock or excite someone into taking action.",
+    "pronunciation": "/ˈɡælvənaɪz/",
+    "example": "The speech galvanized the volunteers.",
+    "partOfSpeech": "verb"
+  },
+  {
+    "word": "innate",
+    "definition": "Inborn; natural.",
+    "pronunciation": "/ɪˈneɪt/",
+    "example": "She has an innate sense of rhythm.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "jaunty",
+    "definition": "Having a lively, cheerful, and self-confident manner.",
+    "pronunciation": "/ˈdʒɔːnti/",
+    "example": "He walked with a jaunty step.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "kinetic",
+    "definition": "Relating to or resulting from motion.",
+    "pronunciation": "/kɪˈnɛtɪk/",
+    "example": "The kinetic sculpture moved with the wind.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "lamentable",
+    "definition": "Deserving to be lamented; unfortunate.",
+    "pronunciation": "/ˈlæməntəbəl/",
+    "example": "The damage to the archive was lamentable.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "maverick",
+    "definition": "An independent-minded person who does not go along with a group.",
+    "pronunciation": "/ˈmævərɪk/",
+    "example": "He's known as a maverick in the industry.",
+    "partOfSpeech": "noun"
+  },
+  {
+    "word": "novice",
+    "definition": "A person new to or inexperienced in a field or situation.",
+    "pronunciation": "/ˈnɒvɪs/",
+    "example": "She's still a novice at gardening.",
+    "partOfSpeech": "noun"
+  },
+  {
+    "word": "obscure",
+    "definition": "Not discovered or known about; uncertain.",
+    "pronunciation": "/əbˈskjʊər/",
+    "example": "The origins of the custom are obscure.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "pristine",
+    "definition": "In its original condition; unspoiled.",
+    "pronunciation": "/ˈprɪstiːn/",
+    "example": "The beach remained pristine after the storm.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "quell",
+    "definition": "To put an end to something, typically by force.",
+    "pronunciation": "/kwɛl/",
+    "example": "Authorities moved quickly to quell the unrest.",
+    "partOfSpeech": "verb"
+  },
+  {
+    "word": "ravenous",
+    "definition": "Extremely hungry.",
+    "pronunciation": "/ˈrævənəs/",
+    "example": "After the hike she was ravenous.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "skeptical",
+    "definition": "Not easily convinced; having doubts.",
+    "pronunciation": "/ˈskɛptɪkəl/",
+    "example": "I remained skeptical about the claims.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "tactile",
+    "definition": "Connected with the sense of touch.",
+    "pronunciation": "/ˈtæktəl/",
+    "example": "The fabric had a pleasing tactile quality.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "usher",
+    "definition": "To show or guide someone to a place.",
+    "pronunciation": "/ˈʌʃər/",
+    "example": "They will usher guests into the hall.",
+    "partOfSpeech": "verb"
+  },
+  {
+    "word": "venerate",
+    "definition": "To regard with great respect; revere.",
+    "pronunciation": "/ˈvɛnəreɪt/",
+    "example": "The monument is venerated by locals.",
+    "partOfSpeech": "verb"
+  },
+  {
+    "word": "wane",
+    "definition": "To decrease in vigor, power, or extent.",
+    "pronunciation": "/weɪn/",
+    "example": "Interest in the trend began to wane.",
+    "partOfSpeech": "verb"
+  },
+  {
+    "word": "yonder",
+    "definition": "At some distance in the direction indicated; over there.",
+    "pronunciation": "/ˈjɒndər/",
+    "example": "See the cottage yonder across the field?",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "word": "zealousness",
+    "definition": "The quality of being fervent or fervently devoted.",
+    "pronunciation": "/ˈzɛləsnəs/",
+    "example": "Her zealousness drove the campaign forward.",
+    "partOfSpeech": "noun"
+  },
+  {
+    "word": "abate",
+    "definition": "To become less intense or widespread.",
+    "pronunciation": "/əˈbeɪt/",
+    "example": "The storm finally began to abate.",
+    "partOfSpeech": "verb"
+  },
+  {
+    "word": "belligerent",
+    "definition": "Hostile and aggressive.",
+    "pronunciation": "/bəˈlɪdʒərənt/",
+    "example": "His belligerent tone caused tension.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "candidly",
+    "definition": "In an honest and straightforward way.",
+    "pronunciation": "/ˈkændɪdli/",
+    "example": "She spoke candidly about her experience.",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "word": "duress",
+    "definition": "Threats or pressure used to make someone do something.",
+    "pronunciation": "/djʊˈrɛs/",
+    "example": "He signed the document under duress.",
+    "partOfSpeech": "noun"
+  },
+  {
+    "word": "embolden",
+    "definition": "To give someone the courage or confidence to do something.",
+    "pronunciation": "/ɛmˈboʊldən/",
+    "example": "The praise emboldened her to try again.",
+    "partOfSpeech": "verb"
+  },
+  {
+    "word": "frugal",
+    "definition": "Sparing or economical with regard to money.",
+    "pronunciation": "/ˈfruːɡəl/",
+    "example": "A frugal lifestyle saved them money.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "garrulous",
+    "definition": "Excessively talkative, especially on trivial matters.",
+    "pronunciation": "/ˈɡærələs/",
+    "example": "The garrulous host filled every silence.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "heed",
+    "definition": "To pay attention to; take notice of.",
+    "pronunciation": "/hiːd/",
+    "example": "You should heed the warnings.",
+    "partOfSpeech": "verb"
+  },
+  {
+    "word": "imbue",
+    "definition": "To inspire or permeate with a feeling or quality.",
+    "pronunciation": "/ɪmˈbjuː/",
+    "example": "The teacher sought to imbue students with curiosity.",
+    "partOfSpeech": "verb"
+  },
+  {
+    "word": "jubilant",
+    "definition": "Feeling or expressing great joy.",
+    "pronunciation": "/ˈdʒuːbɪlənt/",
+    "example": "Fans were jubilant after the victory.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "knack",
+    "definition": "An acquired or natural skill at doing something.",
+    "pronunciation": "/næk/",
+    "example": "He has a knack for solving riddles.",
+    "partOfSpeech": "noun"
+  },
+  {
+    "word": "lamentation",
+    "definition": "An expression of great sadness or sorrow.",
+    "pronunciation": "/ˌlæmɛnˈteɪʃən/",
+    "example": "The play included scenes of lamentation.",
+    "partOfSpeech": "noun"
+  },
+  {
+    "word": "meander",
+    "definition": "To follow a winding course; to wander aimlessly.",
+    "pronunciation": "/miˈændər/",
+    "example": "We meandered through the old town.",
+    "partOfSpeech": "verb"
+  },
+  {
+    "word": "nuptial",
+    "definition": "Relating to marriage or weddings.",
+    "pronunciation": "/ˈnʌpʃəl/",
+    "example": "They exchanged nuptial vows by the sea.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "oblivious",
+    "definition": "Not aware of or not concerned about what is happening.",
+    "pronunciation": "/əˈblɪviəs/",
+    "example": "He was oblivious to the time.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "palpable",
+    "definition": "So intense as to seem almost tangible.",
+    "pronunciation": "/ˈpælpəbəl/",
+    "example": "There was a palpable sense of relief.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "quibble",
+    "definition": "To argue or raise objections about a trivial matter.",
+    "pronunciation": "/ˈkwɪbəl/",
+    "example": "Let's not quibble over minor details.",
+    "partOfSpeech": "verb"
+  },
+  {
+    "word": "ruminate",
+    "definition": "To think deeply about something.",
+    "pronunciation": "/ˈruːmɪneɪt/",
+    "example": "He ruminated on the consequences of his choice.",
+    "partOfSpeech": "verb"
+  },
+  {
+    "word": "sanguine",
+    "definition": "Optimistic or positive, especially in a bad situation.",
+    "pronunciation": "/ˈsæŋɡwɪn/",
+    "example": "She remained sanguine despite setbacks.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "tranquil",
+    "definition": "Free from disturbance; calm.",
+    "pronunciation": "/ˈtræŋkwɪl/",
+    "example": "The garden was tranquil at dusk.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "usurp",
+    "definition": "To take a position of power illegally or by force.",
+    "pronunciation": "/juːˈsɜːrp/",
+    "example": "He attempted to usurp control of the committee.",
+    "partOfSpeech": "verb"
+  },
+  {
+    "word": "vocabulary",
+    "definition": "The set of words known and used within a language.",
+    "pronunciation": "/voʊˈkæbjʊˌlɛri/",
+    "example": "Reading expands your vocabulary.",
+    "partOfSpeech": "noun"
+  },
+  {
+    "word": "wary",
+    "definition": "Feeling or showing caution about possible dangers or problems.",
+    "pronunciation": "/ˈwɛəri/",
+    "example": "Be wary of strangers offering deals.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "yoke",
+    "definition": "To join together or couple.",
+    "pronunciation": "/joʊk/",
+    "example": "They yoked the two ideas into a single concept.",
+    "partOfSpeech": "verb"
+  },
+  {
+    "word": "yearn",
+    "definition": "To have an intense feeling of longing for something.",
+    "pronunciation": "/jɜːrn/",
+    "example": "She would yearn for distant summers.",
+    "partOfSpeech": "verb"
+  },
+  {
+    "word": "zenith",
+    "definition": "The time at which something is most powerful or successful.",
+    "pronunciation": "/ˈziːnɪθ/",
+    "example": "The company reached its zenith in the 1990s.",
+    "partOfSpeech": "noun"
+  },
+  {
+    "word": "accumulate",
+    "definition": "To gather or collect over time.",
+    "pronunciation": "/əˈkjuːmjəˌleɪt/",
+    "example": "Dust will accumulate on unused shelves.",
+    "partOfSpeech": "verb"
+  },
+  {
+    "word": "banal",
+    "definition": "So lacking in originality as to be obvious and boring.",
+    "pronunciation": "/bəˈnæl/",
+    "example": "The plot felt banal and predictable.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "cajole",
+    "definition": "To persuade someone by sustained coaxing or flattery.",
+    "pronunciation": "/kəˈdʒoʊl/",
+    "example": "He tried to cajole her into attending the event.",
+    "partOfSpeech": "verb"
+  },
+  {
+    "word": "deft",
+    "definition": "Neatly skillful and quick in one's movements.",
+    "pronunciation": "/dɛft/",
+    "example": "Her deft handling of the tools impressed everyone.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "eclectic",
+    "definition": "Deriving ideas, style, or taste from a broad range of sources.",
+    "pronunciation": "/ɪˈklɛktɪk/",
+    "example": "Their playlist was eclectic and surprising.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "feign",
+    "definition": "To pretend to be affected by (a feeling, state, or injury).",
+    "pronunciation": "/feɪn/",
+    "example": "He tried to feign sleep to avoid conversation.",
+    "partOfSpeech": "verb"
+  },
+  {
+    "word": "guilt",
+    "definition": "A feeling of having committed wrong or failed in an obligation.",
+    "pronunciation": "/ɡɪlt/",
+    "example": "She felt guilt over the broken promise.",
+    "partOfSpeech": "noun"
+  },
+  {
+    "word": "hubris",
+    "definition": "Excessive pride or self-confidence.",
+    "pronunciation": "/ˈhjuːbrɪs/",
+    "example": "His hubris led to careless decisions.",
+    "partOfSpeech": "noun"
+  },
+  {
+    "word": "incite",
+    "definition": "To encourage or stir up violent or unlawful behavior.",
+    "pronunciation": "/ɪnˈsaɪt/",
+    "example": "They were accused of trying to incite a riot.",
+    "partOfSpeech": "verb"
+  },
+  {
+    "word": "jaded",
+    "definition": "Tired, bored, or lacking enthusiasm, typically after having had too much of something.",
+    "pronunciation": "/ˈdʒeɪdɪd/",
+    "example": "After years on the road he felt jaded.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "keystone",
+    "definition": "A central stone at the summit of an arch, locking the whole together; a central principle.",
+    "pronunciation": "/ˈkiːstoʊn/",
+    "example": "Trust is the keystone of their partnership.",
+    "partOfSpeech": "noun"
+  },
+  {
+    "word": "lucid",
+    "definition": "Expressed clearly; easy to understand.",
+    "pronunciation": "/ˈluːsɪd/",
+    "example": "Her explanation was lucid and helpful.",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "word": "mitigate",
+    "definition": "To make less severe, serious, or painful.",
+    "pronunciation": "/ˈmɪtɪɡeɪt/",
+    "example": "They took steps to mitigate the damage.",
+    "partOfSpeech": "verb"
+  },
+  {
+    "word": "nuanceful",
+    "definition": "Full of subtle differences in meaning or tone.",
+    "pronunciation": "/ˈnuːɑːnsfəl/",
+    "example": "Her critique was nuanced and nuanceful.",
+    "partOfSpeech": "adjective"
+  }
+]

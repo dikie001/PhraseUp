@@ -34,6 +34,10 @@ const WordLearningApp: React.FC = () => {
   const [learnedWords, setLearnedWords] = useState<number[]>([]);
   const [poems, setPoems] = useState<Poem[]>([]);
   const [words, setWords] = useState<Word[]>([]);
+  const [displayedText, setDisplayedText] = useState("");
+  const [wordIndex, setWordIndex] = useState(0);
+  const [charIndex, setCharIndex] = useState(0);
+  const [deleting, setDeleting] = useState(false);
 
   const currentWord = words[currentWordIndex];
   const currentPoem = poems[currentPoemIndex];
@@ -42,16 +46,61 @@ const WordLearningApp: React.FC = () => {
   useEffect(() => {
     const InitialLoad = () => {
       console.log(allPoems);
-      setPoems(allPoems)
-      setWords(allWords)
+      setPoems(allPoems);
+      setWords(allWords);
       console.log(allWords);
     };
     InitialLoad();
   }, []);
 
+
+const sentences = [
+  "Words that shine.",
+  "Poetry in motion.",
+  "Unlock expression.",
+  "Feel the rhythm.",
+  "Verses that live.",
+  "Language reimagined.",
+  "Echoes of meaning.",
+  "Discover your voice.",
+  "Where words dance.",
+  "Infinite inspiration.",
+];
+
+
+  //   Auto updating text with typing effect
+  useEffect(() => {
+    const currentWord = sentences[wordIndex];
+
+    let typingSpeed = deleting ? 50 : 120; // speed when deleting vs typing
+
+    const timeout = setTimeout(() => {
+      if (!deleting && charIndex < currentWord.length) {
+        setDisplayedText((prev) => prev + currentWord[charIndex]);
+        setCharIndex((prev) => prev + 1);
+      } else if (deleting && charIndex > 0) {
+        setDisplayedText((prev) => prev.slice(0, -1));
+        setCharIndex((prev) => prev - 1);
+      } else if (!deleting && charIndex === currentWord.length) {
+        // pause before deleting
+        setTimeout(() => setDeleting(true), 1000);
+      } else if (deleting && charIndex === 0) {
+        setDeleting(false);
+        if(wordIndex === sentences.length - 1){
+            setWordIndex(0);
+        } else{
+            setWordIndex((prev) => prev + 1);
+        }
+        
+        // setWordIndex((prev) => (prev + 1) % words.length);
+      }
+    }, typingSpeed);
+
+    return () => clearTimeout(timeout);
+  }, [charIndex, deleting, wordIndex]);
+
   const nextWord = () => {
     setCurrentWordIndex((prev) => (prev + 1) % words.length);
-    setShowDefinition(false);
   };
 
   const previousWord = () => {
@@ -91,10 +140,12 @@ const WordLearningApp: React.FC = () => {
       <div className="container mx-auto px-4 py-8 max-w-4xl">
         {/* Header */}
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-gray-800 mb-2 flex items-center justify-center gap-2">
-            <BookOpen className="text-indigo-600" />
-            Word & Poetry Explorer
-          </h1>
+          <div className="flex justify-center h-14">
+            {" "}
+            <h1 className="text-4xl font-bold text-gray-800 mb-2 flex items-center justify-center gap-2">
+              {displayedText}
+            </h1>
+          </div>
           <p className="text-gray-600 text-lg">
             Expand your vocabulary and discover beautiful poetry
           </p>

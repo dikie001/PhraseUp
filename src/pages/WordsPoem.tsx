@@ -72,8 +72,7 @@ const sentences = [
   useEffect(() => {
     const currentWord = sentences[wordIndex];
 
-    let typingSpeed = deleting ? 50 : 120; // speed when deleting vs typing
-
+    let typingSpeed = deleting ? 40 : 100; 
     const timeout = setTimeout(() => {
       if (!deleting && charIndex < currentWord.length) {
         setDisplayedText((prev) => prev + currentWord[charIndex]);
@@ -182,7 +181,7 @@ const sentences = [
         {activeTab === "words" && (
           <div className="space-y-6">
             {/* Word Card */}
-            <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
+            <div className="bg-white rounded-2xl shadow-xl p-6 border border-gray-100">
               <div className="flex justify-between items-start mb-6">
                 <div className="flex items-center gap-3">
                   <span className="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm font-medium">
@@ -210,7 +209,7 @@ const sentences = [
                 </div>
               </div>
 
-              <div className="text-center mb-6">
+              <div className="text-center mb-2">
                 <h2 className="text-5xl font-bold text-gray-800 mb-2">
                   {currentWord?.word}
                 </h2>
@@ -303,9 +302,9 @@ const sentences = [
         {activeTab === "poems" && (
           <div className="space-y-6">
             {/* Poem Card */}
-            <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
-              <div className="text-center mb-6">
-                <div className="flex justify-center mb-4">
+            <div className="bg-white rounded-2xl shadow-xl p-4 border border-gray-100">
+              <div className="text-center mb-2">
+                <div className="flex justify-start mb-2">
                   <span
                     className={`px-4 py-2 rounded-full text-sm font-medium ${getThemeColor(
                       currentPoem.theme
@@ -320,8 +319,8 @@ const sentences = [
                 <p className="text-gray-600 text-lg">by {currentPoem.author}</p>
               </div>
 
-              <div className="bg-gradient-to-r from-purple-50 to-indigo-50 p-8 rounded-xl border border-purple-200">
-                <div className="space-y-3">
+              <div className="mb-4 bg-gradient-to-r  from-purple-50 to-indigo-50 p-8 rounded-xl border border-purple-200">
+                <div className="space-y-4">
                   {currentPoem.lines.map((line, index) => (
                     <p
                       key={index}

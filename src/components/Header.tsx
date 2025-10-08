@@ -29,6 +29,16 @@ const Header: React.FC = () => {
             >
               Quotes
             </Link>
+            <Link
+              to="/settings"
+              className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
+                location.pathname === '/settings'
+                  ? 'text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20'
+                  : 'text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400'
+              }`}
+            >
+              Settings
+            </Link>
 
             <button
               onClick={toggleTheme}

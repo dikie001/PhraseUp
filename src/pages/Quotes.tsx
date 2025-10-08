@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Heart, Share2, Search } from 'lucide-react';
 import toast from 'react-hot-toast';
+import quotes from '../assets/jsons/quotes.json';
 
 interface Quote {
   id: number;
@@ -9,56 +10,7 @@ interface Quote {
   category: string;
 }
 
-const quotes: Quote[] = [
-  {
-    id: 1,
-    text: "The only way to do great work is to love what you do.",
-    author: "Steve Jobs",
-    category: "Motivation"
-  },
-  {
-    id: 2,
-    text: "Believe you can and you're halfway there.",
-    author: "Theodore Roosevelt",
-    category: "Inspiration"
-  },
-  {
-    id: 3,
-    text: "The future belongs to those who believe in the beauty of their dreams.",
-    author: "Eleanor Roosevelt",
-    category: "Dreams"
-  },
-  {
-    id: 4,
-    text: "You miss 100% of the shots you don't take.",
-    author: "Wayne Gretzky",
-    category: "Success"
-  },
-  {
-    id: 5,
-    text: "The best way to predict the future is to create it.",
-    author: "Peter Drucker",
-    category: "Innovation"
-  },
-  {
-    id: 6,
-    text: "Life is what happens to you while you're busy making other plans.",
-    author: "John Lennon",
-    category: "Life"
-  },
-  {
-    id: 7,
-    text: "The only impossible journey is the one you never begin.",
-    author: "Tony Robbins",
-    category: "Adventure"
-  },
-  {
-    id: 8,
-    text: "Your time is limited, so don't waste it living someone else's life.",
-    author: "Steve Jobs",
-    category: "Personal Growth"
-  }
-];
+
 
 const categories = ['All', ...Array.from(new Set(quotes.map(q => q.category)))];
 

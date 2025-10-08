@@ -1,50 +1,602 @@
 [
   {
     "id": 1,
-    "text": "The only way to do great work is to love what you do.",
-    "author": "Steve Jobs",
+    "text": "Act with intention; results follow.",
+    "author": "A. Morgan",
     "category": "Motivation"
   },
   {
     "id": 2,
-    "text": "Believe you can and you're halfway there.",
-    "author": "Theodore Roosevelt",
+    "text": "Small steps compound into leaps.",
+    "author": "S. Patel",
     "category": "Inspiration"
   },
   {
     "id": 3,
-    "text": "The future belongs to those who believe in the beauty of their dreams.",
-    "author": "Eleanor Roosevelt",
+    "text": "Design tomorrow with today's courage.",
+    "author": "L. Okoro",
     "category": "Dreams"
   },
   {
     "id": 4,
-    "text": "You miss 100% of the shots you don't take.",
-    "author": "Wayne Gretzky",
+    "text": "Measure progress, not perfection.",
+    "author": "R. Bennett",
     "category": "Success"
   },
   {
     "id": 5,
-    "text": "The best way to predict the future is to create it.",
-    "author": "Peter Drucker",
+    "text": "Invent the process before you need it.",
+    "author": "K. Alvarez",
     "category": "Innovation"
   },
   {
     "id": 6,
-    "text": "Life is what happens to you while you're busy making other plans.",
-    "author": "John Lennon",
+    "text": "Be present — life rewards attention.",
+    "author": "M. Njeri",
     "category": "Life"
   },
   {
     "id": 7,
-    "text": "The only impossible journey is the one you never begin.",
-    "author": "Tony Robbins",
+    "text": "Begin where fear says stop.",
+    "author": "T. Ramos",
     "category": "Adventure"
   },
   {
     "id": 8,
-    "text": "Your time is limited, so don't waste it living someone else's life.",
-    "author": "Steve Jobs",
+    "text": "Daily habits build your next level.",
+    "author": "J. Reed",
     "category": "Personal Growth"
+  },
+  {
+    "id": 9,
+    "text": "Commit to one thing and excel.",
+    "author": "A. Morgan",
+    "category": "Motivation"
+  },
+  {
+    "id": 10,
+    "text": "Confidence is practice framed by failure.",
+    "author": "S. Patel",
+    "category": "Inspiration"
+  },
+  {
+    "id": 11,
+    "text": "Dreams become plans when you schedule them.",
+    "author": "L. Okoro",
+    "category": "Dreams"
+  },
+  {
+    "id": 12,
+    "text": "Ship value; the market will decide.",
+    "author": "R. Bennett",
+    "category": "Success"
+  },
+  {
+    "id": 13,
+    "text": "Prototype fast, iterate faster.",
+    "author": "K. Alvarez",
+    "category": "Innovation"
+  },
+  {
+    "id": 14,
+    "text": "Life rarely waits for permission.",
+    "author": "M. Njeri",
+    "category": "Life"
+  },
+  {
+    "id": 15,
+    "text": "Explore first; explain later.",
+    "author": "T. Ramos",
+    "category": "Adventure"
+  },
+  {
+    "id": 16,
+    "text": "Invest in skills, not just signals.",
+    "author": "J. Reed",
+    "category": "Personal Growth"
+  },
+  {
+    "id": 17,
+    "text": "Push limits until they move.",
+    "author": "A. Morgan",
+    "category": "Motivation"
+  },
+  {
+    "id": 18,
+    "text": "Inspiration starts with a stubborn why.",
+    "author": "S. Patel",
+    "category": "Inspiration"
+  },
+  {
+    "id": 19,
+    "text": "Frame your future in clear sentences.",
+    "author": "L. Okoro",
+    "category": "Dreams"
+  },
+  {
+    "id": 20,
+    "text": "Success is repeatable, if systems exist.",
+    "author": "R. Bennett",
+    "category": "Success"
+  },
+  {
+    "id": 21,
+    "text": "Disruptive ideas respect constraints.",
+    "author": "K. Alvarez",
+    "category": "Innovation"
+  },
+  {
+    "id": 22,
+    "text": "Live with fewer regrets, more action.",
+    "author": "M. Njeri",
+    "category": "Life"
+  },
+  {
+    "id": 23,
+    "text": "Go where maps end and curiosity begins.",
+    "author": "T. Ramos",
+    "category": "Adventure"
+  },
+  {
+    "id": 24,
+    "text": "Stretch skills outside comfort zones daily.",
+    "author": "J. Reed",
+    "category": "Personal Growth"
+  },
+  {
+    "id": 25,
+    "text": "Ambition needs discipline to scale.",
+    "author": "A. Morgan",
+    "category": "Motivation"
+  },
+  {
+    "id": 26,
+    "text": "A single bold idea ignites teams.",
+    "author": "S. Patel",
+    "category": "Inspiration"
+  },
+  {
+    "id": 27,
+    "text": "Draft the life you wont settle for later.",
+    "author": "L. Okoro",
+    "category": "Dreams"
+  },
+  {
+    "id": 28,
+    "text": "Win by outworking yesterday's standards.",
+    "author": "R. Bennett",
+    "category": "Success"
+  },
+  {
+    "id": 29,
+    "text": "Iterate on constraints; innovation thrives.",
+    "author": "K. Alvarez",
+    "category": "Innovation"
+  },
+  {
+    "id": 30,
+    "text": "Choose presence over busyness.",
+    "author": "M. Njeri",
+    "category": "Life"
+  },
+  {
+    "id": 31,
+    "text": "Adventure is a decision, not an itinerary.",
+    "author": "T. Ramos",
+    "category": "Adventure"
+  },
+  {
+    "id": 32,
+    "text": "Feedback is free research; use it.",
+    "author": "J. Reed",
+    "category": "Personal Growth"
+  },
+  {
+    "id": 33,
+    "text": "Focus multiplies limited time into output.",
+    "author": "A. Morgan",
+    "category": "Motivation"
+  },
+  {
+    "id": 34,
+    "text": "Inspiration is a repeatable ritual.",
+    "author": "S. Patel",
+    "category": "Inspiration"
+  },
+  {
+    "id": 35,
+    "text": "Dream with deadlines.",
+    "author": "L. Okoro",
+    "category": "Dreams"
+  },
+  {
+    "id": 36,
+    "text": "Progress beats potential every time.",
+    "author": "R. Bennett",
+    "category": "Success"
+  },
+  {
+    "id": 37,
+    "text": "Build tools that remove friction.",
+    "author": "K. Alvarez",
+    "category": "Innovation"
+  },
+  {
+    "id": 38,
+    "text": "Life's scoreboard is personal; track your metrics.",
+    "author": "M. Njeri",
+    "category": "Life"
+  },
+  {
+    "id": 39,
+    "text": "Take routes that make stories worth telling.",
+    "author": "T. Ramos",
+    "category": "Adventure"
+  },
+  {
+    "id": 40,
+    "text": "Learn one thing deeply each week.",
+    "author": "J. Reed",
+    "category": "Personal Growth"
+  },
+  {
+    "id": 41,
+    "text": "Do hard work with quiet confidence.",
+    "author": "A. Morgan",
+    "category": "Motivation"
+  },
+  {
+    "id": 42,
+    "text": "Find mentors; steal their shortcuts ethically.",
+    "author": "S. Patel",
+    "category": "Inspiration"
+  },
+  {
+    "id": 43,
+    "text": "Dreams that scare you are the right ones.",
+    "author": "L. Okoro",
+    "category": "Dreams"
+  },
+  {
+    "id": 44,
+    "text": "Consistency compounds into reputation.",
+    "author": "R. Bennett",
+    "category": "Success"
+  },
+  {
+    "id": 45,
+    "text": "Reframe waste as data for improvement.",
+    "author": "K. Alvarez",
+    "category": "Innovation"
+  },
+  {
+    "id": 46,
+    "text": "Simplify decisions to save emotional energy.",
+    "author": "M. Njeri",
+    "category": "Life"
+  },
+  {
+    "id": 47,
+    "text": "Seek discomfort; that's where growth lives.",
+    "author": "T. Ramos",
+    "category": "Adventure"
+  },
+  {
+    "id": 48,
+    "text": "Audit your calendar; protect your future self.",
+    "author": "J. Reed",
+    "category": "Personal Growth"
+  },
+  {
+    "id": 49,
+    "text": "Momentum is earned with one consistent action.",
+    "author": "A. Morgan",
+    "category": "Motivation"
+  },
+  {
+    "id": 50,
+    "text": "Ideas are cheap; execution is capital.",
+    "author": "S. Patel",
+    "category": "Inspiration"
+  },
+  {
+    "id": 51,
+    "text": "Sketch the future, then live into it.",
+    "author": "L. Okoro",
+    "category": "Dreams"
+  },
+  {
+    "id": 52,
+    "text": "Fail fast, learn faster, scale safely.",
+    "author": "R. Bennett",
+    "category": "Success"
+  },
+  {
+    "id": 53,
+    "text": "Leverage constraints to discover new value.",
+    "author": "K. Alvarez",
+    "category": "Innovation"
+  },
+  {
+    "id": 54,
+    "text": "Choose what you tolerate; it shapes life.",
+    "author": "M. Njeri",
+    "category": "Life"
+  },
+  {
+    "id": 55,
+    "text": "Pack light — both gear and expectations.",
+    "author": "T. Ramos",
+    "category": "Adventure"
+  },
+  {
+    "id": 56,
+    "text": "Benchmark yourself against your potential.",
+    "author": "J. Reed",
+    "category": "Personal Growth"
+  },
+  {
+    "id": 57,
+    "text": "Start before you feel ready; readiness follows.",
+    "author": "A. Morgan",
+    "category": "Motivation"
+  },
+  {
+    "id": 58,
+    "text": "Curiosity beats comfort every time.",
+    "author": "S. Patel",
+    "category": "Inspiration"
+  },
+  {
+    "id": 59,
+    "text": "Dreams need a plan, a budget, and allies.",
+    "author": "L. Okoro",
+    "category": "Dreams"
+  },
+  {
+    "id": 60,
+    "text": "Execute with clarity; chaos follows unclear plans.",
+    "author": "R. Bennett",
+    "category": "Success"
+  },
+  {
+    "id": 61,
+    "text": "Sensible risk plus rapid learning equals advantage.",
+    "author": "K. Alvarez",
+    "category": "Innovation"
+  },
+  {
+    "id": 62,
+    "text": "Protect your rest as fiercely as your work.",
+    "author": "M. Njeri",
+    "category": "Life"
+  },
+  {
+    "id": 63,
+    "text": "Collect experiences, not just destinations.",
+    "author": "T. Ramos",
+    "category": "Adventure"
+  },
+  {
+    "id": 64,
+    "text": "Replace excuses with experiments.",
+    "author": "J. Reed",
+    "category": "Personal Growth"
+  },
+  {
+    "id": 65,
+    "text": "Clarity of purpose shortens timelines.",
+    "author": "A. Morgan",
+    "category": "Motivation"
+  },
+  {
+    "id": 66,
+    "text": "Share your why; it attracts collaborators.",
+    "author": "S. Patel",
+    "category": "Inspiration"
+  },
+  {
+    "id": 67,
+    "text": "Dream in outcomes, not activities.",
+    "author": "L. Okoro",
+    "category": "Dreams"
+  },
+  {
+    "id": 68,
+    "text": "Scale systems, not just people.",
+    "author": "R. Bennett",
+    "category": "Success"
+  },
+  {
+    "id": 69,
+    "text": "Create leverage with automation and rules.",
+    "author": "K. Alvarez",
+    "category": "Innovation"
+  },
+  {
+    "id": 70,
+    "text": "Make decisions aligned with values, not trends.",
+    "author": "M. Njeri",
+    "category": "Life"
+  },
+  {
+    "id": 71,
+    "text": "Venture where your map says 'unknown'.",
+    "author": "T. Ramos",
+    "category": "Adventure"
+  },
+  {
+    "id": 72,
+    "text": "Daily reflection converts experience into skill.",
+    "author": "J. Reed",
+    "category": "Personal Growth"
+  },
+  {
+    "id": 73,
+    "text": "Discipline outperforms raw talent under pressure.",
+    "author": "A. Morgan",
+    "category": "Motivation"
+  },
+  {
+    "id": 74,
+    "text": "Inspiration is a muscle — train it.",
+    "author": "S. Patel",
+    "category": "Inspiration"
+  },
+  {
+    "id": 75,
+    "text": "Dreams become contracts when you commit publicly.",
+    "author": "L. Okoro",
+    "category": "Dreams"
+  },
+  {
+    "id": 76,
+    "text": "Track inputs more than ego-boosting outputs.",
+    "author": "R. Bennett",
+    "category": "Success"
+  },
+  {
+    "id": 77,
+    "text": "Innovate around user pain, not whims.",
+    "author": "K. Alvarez",
+    "category": "Innovation"
+  },
+  {
+    "id": 78,
+    "text": "Life's quality is the sum of daily choices.",
+    "author": "M. Njeri",
+    "category": "Life"
+  },
+  {
+    "id": 79,
+    "text": "Let curiosity be your travel guide.",
+    "author": "T. Ramos",
+    "category": "Adventure"
+  },
+  {
+    "id": 80,
+    "text": "Seek uncomfortable feedback and absorb it.",
+    "author": "J. Reed",
+    "category": "Personal Growth"
+  },
+  {
+    "id": 81,
+    "text": "Do the work others avoid; that's your moat.",
+    "author": "A. Morgan",
+    "category": "Motivation"
+  },
+  {
+    "id": 82,
+    "text": "Inspiration without discipline is distraction.",
+    "author": "S. Patel",
+    "category": "Inspiration"
+  },
+  {
+    "id": 83,
+    "text": "Dream bigger only after you prove smaller bets.",
+    "author": "L. Okoro",
+    "category": "Dreams"
+  },
+  {
+    "id": 84,
+    "text": "Victory is cumulative; count the small wins.",
+    "author": "R. Bennett",
+    "category": "Success"
+  },
+  {
+    "id": 85,
+    "text": "Apply technology to amplify human judgment.",
+    "author": "K. Alvarez",
+    "category": "Innovation"
+  },
+  {
+    "id": 86,
+    "text": "Choose people who raise your standards.",
+    "author": "M. Njeri",
+    "category": "Life"
+  },
+  {
+    "id": 87,
+    "text": "Collect memories that change perspective.",
+    "author": "T. Ramos",
+    "category": "Adventure"
+  },
+  {
+    "id": 88,
+    "text": "Practice clarity in speech and thought.",
+    "author": "J. Reed",
+    "category": "Personal Growth"
+  },
+  {
+    "id": 89,
+    "text": "Lead by delivering, not announcing.",
+    "author": "A. Morgan",
+    "category": "Motivation"
+  },
+  {
+    "id": 90,
+    "text": "Ideas mature when you invite critique.",
+    "author": "S. Patel",
+    "category": "Inspiration"
+  },
+  {
+    "id": 91,
+    "text": "Dreams survive on discipline and patience.",
+    "author": "L. Okoro",
+    "category": "Dreams"
+  },
+  {
+    "id": 92,
+    "text": "Turn setbacks into documented playbooks.",
+    "author": "R. Bennett",
+    "category": "Success"
+  },
+  {
+    "id": 93,
+    "text": "Rethink defaults to unlock new paths.",
+    "author": "K. Alvarez",
+    "category": "Innovation"
+  },
+  {
+    "id": 94,
+    "text": "Live intentionally; say no with reason.",
+    "author": "M. Njeri",
+    "category": "Life"
+  },
+  {
+    "id": 95,
+    "text": "Adventure rewires assumptions into confidence.",
+    "author": "T. Ramos",
+    "category": "Adventure"
+  },
+  {
+    "id": 96,
+    "text": "Invest time in thinking, then execute ruthlessly.",
+    "author": "J. Reed",
+    "category": "Personal Growth"
+  },
+  {
+    "id": 97,
+    "text": "Start decisive actions; momentum follows.",
+    "author": "A. Morgan",
+    "category": "Motivation"
+  },
+  {
+    "id": 98,
+    "text": "Capture inspiration before it evaporates.",
+    "author": "S. Patel",
+    "category": "Inspiration"
+  },
+  {
+    "id": 99,
+    "text": "Dreams require operational plans to breathe.",
+    "author": "L. Okoro",
+    "category": "Dreams"
+  },
+  {
+    "id": 100,
+    "text": "Sustain success by evolving your methods.",
+    "author": "R. Bennett",
+    "category": "Success"
   }
 ]

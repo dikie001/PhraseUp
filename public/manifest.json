@@ -1,0 +1,16 @@
+{
+  "name": "PhraseUp - Inspirational Quotes",
+  "short_name": "PhraseUp",
+  "description": "Get daily inspirational quotes with push notifications",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

@@ -1,9 +1,7 @@
 import React from 'react';
-import { useTheme } from '../contexts/ThemeContext';
 import { useNotification } from '../contexts/NotificationContext';
 
 const Settings: React.FC = () => {
-  const { theme } = useTheme();
   const { frequency, setFrequency, permission } = useNotification();
 
   return (
